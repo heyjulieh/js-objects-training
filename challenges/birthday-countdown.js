@@ -1,4 +1,6 @@
 /*
+  Notes about assignment: quite tough. Understanding which method and the way objects are written is still shaky for me
+  Seeing solution was a bit helpful-- but still need explaining to understand what each thing kinda means
 
   Create a function `daysUntilDate` that accepts a string (with the format `"mm/dd/yyyy"`) and
   returns the number of days (integer) between today and that date. Please use the built in
