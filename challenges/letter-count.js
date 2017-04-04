@@ -31,3 +31,25 @@
 */
 
 // YOUR CODE HERE
+
+// function count numbers of letter in phrase and store as object array
+// function name = countLetter (input phrase) {}
+// parameters/variables = phrase (input), result (output), letter (stored array letter)
+// store result of letter and count of letters within array (result)
+// method: gets character at specific index num = charAt(i)
+// -- if there is a letter of the phrase, count, otherwise, just set 1 for having a letter in the phrase
+// i.e return result: a : 1 = a.(count of [0])
+
+
+    function countLetter(phrase) {
+        var result = {};
+        for (var i=0; i<phrase.length;i++) {
+            var letter = phrase.charAt(i);
+            if (result[letter]) {
+               result[letter]++;
+            } else {
+               result[letter] = 1;
+            }
+        }
+        return result;
+    };
